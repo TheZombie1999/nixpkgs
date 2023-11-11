@@ -1581,6 +1581,8 @@ with pkgs;
 
   s0ix-selftest-tool = callPackage ../tools/system/s0ix-selftest-tool { };
 
+  stacer = libsForQt5.callPackage ../tools/system/stacer/package.nix { };
+
   scarab = callPackage ../tools/games/scarab { };
 
   sdbus-cpp = callPackage ../development/libraries/sdbus-cpp { };
